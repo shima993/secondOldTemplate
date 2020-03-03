@@ -1,0 +1,337 @@
+*{
+    margin:0;
+	padding:0;
+	
+}
+
+html,body{
+    
+    width: 100%;
+	
+  }
+ header{
+background-image: url('images/HomeDesktopSlide1.jpg');
+background-repeat: no-repeat;
+height: 70vh;
+background-size: cover;
+background-position: center;
+position: relative;
+ }
+
+ #top{
+
+    height: 7vh;
+    background-color: #0073e6;
+ }
+
+
+ #navid{
+     height: 12vh;
+     background-color: white;
+     width: 100%;
+ }
+
+ #top #number
+ {
+    margin-top: 15px;
+     display: inline-block;
+     margin-right:266px ;
+     font-size: 14px;
+ }
+ #top #address {
+
+    margin-top: 14px;
+     display: inline-block;
+ text-transform: uppercase;
+     font-size: 12px;
+     float: left;
+    margin-left: 70px;
+     
+ }
+
+
+ #navbar{
+margin-right: 250px;
+
+
+ }
+
+ header a{
+  
+    text-decoration: none;
+    color: #444;
+    font-size: 12px;
+     font-family: 'LeagueGothicRegular', Helvetica, Arial;
+     text-transform: uppercase;
+     font-weight: bold;
+}
+
+
+nav a{
+   display: block;
+   padding: 16px;
+}
+
+#navbar ul li {
+   display: inline-block;
+}
+#navbar{
+   float: right;
+   
+}
+
+.active{
+    color: red;
+}
+
+#navid img{
+    display: inline-block;
+    float: left;
+    width: 60px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+#navid h1{
+display: inline-block;
+font-size: 24px;
+margin-top: 25px;
+}
+
+#top p{
+    display: inline-block;
+    color:  #e6f7ff;
+    float: right;
+    margin-right: ;
+}
+
+.general{
+width: 60%;
+margin: 0 auto;
+
+}
+
+#first-row h1{
+    text-align: center;
+    margin-top: 80px;
+}
+
+#first-row p{
+    text-align: center;
+    padding: 20px;
+
+}
+
+.second-row{
+
+    width: 33%;
+    display: inline-block;
+}
+
+.second-row img{
+
+  display: inline-block;
+}
+
+.general h2,p{
+    text-align: center;
+}
+.general h2{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+#view{
+    width: 100%;
+        display: inline-block;
+      position: relative;
+       
+    }
+
+#view-more{
+    display: inline-block;
+    color:  #e6f7ff;
+    text-decoration: none;
+    background-color: #0073e6;
+    padding:8px 20px 8px 20px;
+    font-size: 13px;
+    margin-top: 20px;
+margin-left: 340px;
+}
+
+#third-row{
+    background-image: url('images/HomeDesktophtml_row2.png');
+    background-repeat: no-repeat;
+height: 65vh;
+background-size: cover;
+background-position: center;
+position: relative;
+margin-top: 70px;
+opacity: 0.8;
+}
+
+#third-row .text-inside-image h2,p{
+
+text-align: left;
+}
+
+#third-row .text-inside-image h2{
+
+padding: 9px;
+    }
+
+
+.read-more{
+    display: inline-block;
+    color:  #e6f7ff;
+    text-decoration: none;
+    background-color: #0073e6;
+    padding:8px 20px 8px 20px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+
+#hovered {
+    display: none;
+}
+
+#third-row:hover #hovered{
+
+    display: inline-block;
+}
+
+
+#third-row:hover #third-row{
+    opacity: 0.1;
+}
+
+#latest-news{
+    margin-top: 70px;
+    height: 35vh;
+    background-color: #0073e6 ;
+}
+
+#latest-news h2{
+    color: #e6f7ff;
+ padding-top: 40px;
+ font-size: 24px;
+}
+
+
+
+#latest-news .out-div{
+    display: inline-block;
+    width: 48%;
+}
+
+#latest-news .t{
+    display: inline-block;
+    float: left;
+    height: 150px;
+}
+
+#latest-news img{
+    padding: 15px;
+    float: left;
+    
+}
+
+
+#latest-news h4{
+    color:  #e6f7ff;
+    padding-top: 15px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+#latest-news p{
+
+    color:  #e6f7ff;
+    display: inline;
+    margin-top: 20px;
+}
+
+#clients-say{
+
+    height: 58vh;
+    background-color: #e0e0d1;
+    margin-top: 70px;
+}
+
+#footer{
+    margin-top: 70px;
+    height: 32vh;
+    background-color: #0073e6 ;
+
+}
+
+.clients{
+
+    width: 49%;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+
+#clients-say h3{
+    text-align: center;
+    padding: 30px;
+    font-size: 22px;
+}
+
+.clients h4{
+    display: inline-block;
+font-size: 18px;
+
+}
+
+.clients p{
+    display: inline-block;
+
+}
+
+.clients img{
+    display: inline-block;
+    padding-left: 10px;
+    height: 110px;
+    float: left;
+}
+
+
+.txt{
+    float: right;
+    width: 65%;
+}
+
+.footer-items{
+    width: 24%;
+    display: inline-block;
+    color:  #e6f7ff;
+  vertical-align: top;
+}
+
+.footer-items h5, address,ul{
+padding-left: 60px;
+font: inherit;
+
+}
+
+.footer-items h5{
+   font-weight: bold;
+    }
+
+ .footer-items  address,ul{
+     padding-top: 20px;
+       font-size: 13px;
+        }
+    
+ .footer-items ul{
+            list-style: none;
+     }
+
+
+#footer-all-items{
+   padding-top: 45px;
+}
